@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Independent development studio portfolio and project hub." />
+  <title>Studio | Development Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a href="#home" class="brand" aria-label="Home">
+      <span class="brand-mark">E</span>
+      <span class="brand-text" data-studio-name>YOUR STUDIO</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#development">Development</a>
+      <a href="#media">Media</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Independent Development Studio</div>
+        <h1>Building detailed worlds.<br><span>One project at a time.</span></h1>
+        <p class="hero-copy">A home for transportation simulations, interactive systems, realistic environments, and future development projects.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore Projects</a>
+          <a href="#development" class="btn btn-secondary">Development Status</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>01</strong><span>Flagship Project</span></div>
+          <div><strong>2026</strong><span>Active Development</span></div>
+          <div><strong>100%</strong><span>Independent Vision</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-1">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="terminal-card glass-card">
+          <div class="terminal-topbar">
+            <span></span><span></span><span></span>
+            <em>DEV // STATUS</em>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">></span> initializing project hub...</p>
+            <p><span class="prompt">></span> loading active builds...</p>
+            <p><span class="prompt">></span> PROJECT HUDSON <b class="ok">ONLINE</b></p>
+            <p><span class="prompt">></span> phase_1.status = <b>IN DEVELOPMENT</b></p>
+            <p><span class="prompt">></span> realism.priority = <b>MAXIMUM</b></p>
+            <p class="cursor-line"><span class="prompt">></span><span class="cursor"></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <div>
+          <span class="eyebrow">Selected Work</span>
+          <h2>Projects</h2>
+        </div>
+        <p>Each project gets its own identity, development page, media, progress tracking, and release information.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card hudson reveal">
+          <div class="project-card-bg"></div>
+          <div class="project-badge">FLAGSHIP</div>
+          <div class="project-content">
+            <div class="project-meta"><span>ROBLOX</span><span>TRANSPORTATION SIMULATION</span></div>
+            <h3>Project Hudson</h3>
+            <p>A realism-focused PATH-inspired rail simulation built around detailed operations, environments, staff systems, and rolling stock.</p>
+            <div class="project-progress">
+              <div class="progress-label"><span>Phase 1</span><span>In Development</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width:66%"></div></div>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-light" href="project-hudson.html">View Project</a>
+              <span class="live-chip"><span></span> Active</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card placeholder-card reveal delay-1">
+          <div class="placeholder-icon">+</div>
+          <span class="eyebrow">Future Project</span>
+          <h3>Your next world starts here.</h3>
+          <p>This slot is ready for your next game, system, simulation, or development project.</p>
+          <button class="btn btn-secondary" disabled>Coming Later</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section development-section" id="development">
+      <div class="section-heading reveal">
+        <div>
+          <span class="eyebrow">Build Log</span>
+          <h2>Development</h2>
+        </div>
+        <p>A transparent view of active work, milestones, and what is being built next.</p>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-line"></div>
+        <div class="timeline-item active">
+          <div class="timeline-node"></div>
+          <div class="timeline-date">NOW</div>
+          <div class="timeline-card">
+            <span class="tag active-tag">ACTIVE</span>
+            <h3>Project Hudson — Phase 1</h3>
+            <p>Core route construction, station realism, operations systems, train functionality, and staff infrastructure.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="timeline-date">NEXT</div>
+          <div class="timeline-card">
+            <span class="tag">PLANNED</span>
+            <h3>Project Hudson — Phase 2</h3>
+            <p>Expanded New Jersey operations, additional stations, track infrastructure, and deeper operational systems.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="timeline-date">FUTURE</div>
+          <div class="timeline-card">
+            <span class="tag">ROADMAP</span>
+            <h3>New Projects</h3>
+            <p>Future experiences will appear here with their own pages and visual themes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="media">
+      <div class="section-heading reveal">
+        <div>
+          <span class="eyebrow">Visual Development</span>
+          <h2>Media</h2>
+        </div>
+        <p>Reserved for screenshots, renders, progress shots, development videos, and concept art.</p>
+      </div>
+      <div class="media-grid reveal">
+        <div class="media-tile large"><div class="media-placeholder">PROJECT SCREENSHOT</div></div>
+        <div class="media-tile"><div class="media-placeholder">RENDER</div></div>
+        <div class="media-tile"><div class="media-placeholder">DEV BUILD</div></div>
+        <div class="media-tile wide"><div class="media-placeholder">CINEMATIC / VIDEO</div></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-card reveal">
+        <div>
+          <span class="eyebrow">Developer Profile</span>
+          <h2>Built by Emperor.</h2>
+          <p>This site is designed as the central home for every project developed under your future studio name. The focus is realism, detail, presentation, and building experiences that feel intentionally made rather than rushed.</p>
+          <p>The brand name can be changed later without redesigning the site.</p>
+        </div>
+        <div class="signature-block">
+          <span>Developer Identity</span>
+          <strong>Emperor</strong>
+          <em>Founder / Developer</em>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card reveal">
+        <div>
+          <span class="eyebrow">Contact</span>
+          <h2>Want to follow development?</h2>
+          <p>Add your Roblox community, Discord, social links, email, or other contact options here when you're ready.</p>
+        </div>
+        <a href="#" class="btn btn-primary" onclick="return false;">Links Coming Soon</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand compact"><span class="brand-mark">E</span><span data-studio-name>YOUR STUDIO</span></div>
+    <p>© <span id="year"></span> <span data-studio-name>YOUR STUDIO</span>. All rights reserved.</p>
+    <p class="footer-note">Independent development portfolio.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
